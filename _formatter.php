@@ -10,6 +10,8 @@ function loadphp($file)
 	$content = file_get_contents($file);
 	$result = array();
 	preg_match_all("/^\\s*(['\"])([A-Za-z0-9_]*?)\\1\\s*=>\\s*(['\"])(.*?)\\3,?\\s*$/", $content, $r, PREG_SET_ORDER);
+	var_dump($r);
+	die();
 	foreach ($r as $i)
 		$result[$i[1]] = $i[2] . $i[3] . $i[2];
 	return $result;
@@ -32,7 +34,7 @@ mylog("Bot: rewriting");
 $origin = loadphp("zh-cn.php");
 
 foreach (glob("*.php") as $file) {
-	if (!strpos($file, "_"))
+	if (strpos($file, "_") === false)
 	{
 		$list = loadphp($file);
 		$result = array();
