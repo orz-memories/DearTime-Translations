@@ -81,7 +81,6 @@ return array(
 	'NAVBAR_PROFILE_DETAILS' => 'Details',
 	'NAVBAR_RECOVER' => '恢复账户访问',
 	'NAVBAR_REGISTER' => 'Sign up',
-	'TEST' => "TEST",
 	'THEME_FULL' => 'Full Site',
 	'THEME_MOBILE' => 'Mobile Site',
 	'TITLE_BLOGS' => '{0} @ {1}',
