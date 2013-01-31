@@ -57,6 +57,7 @@ Dir["*.php"].each do |file|
   dumpphp file, result
 end
 
+log "Signed-off-by: aomame <aomame@dearti.me>"
 $logfile.close
 system("git commit -a --file=#{$logfile.path.inspect}")
 system("git push")
