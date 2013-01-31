@@ -1,8 +1,8 @@
 <?php
 $log = "";
-function mylog(m) {
+function mylog($m) {
 	global $log;
-	$log .= m . "\n";
+	$log .= $m . "\n";
 }
 
 function loadphp($file)
