@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 #encoding: utf-8
 def log m
-  [STDERR].each do |o|
+  [STDOUT].each do |o|
     o.puts m
   end
 end
