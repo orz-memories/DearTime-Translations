@@ -84,4 +84,5 @@ return array(
 	'THEME_FULL' => '完整版',
 	'THEME_MOBILE' => '手机版',
 	'TITLE_BLOGS' => '{0} @ {1}',
+	'TEST' => "TEST",
 );
