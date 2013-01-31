@@ -81,8 +81,8 @@ return array(
 	'NAVBAR_PROFILE_DETAILS' => '详细资料',
 	'NAVBAR_RECOVER' => '恢复账户访问',
 	'NAVBAR_REGISTER' => '注册',
+	'TEST' => "TEST",
 	'THEME_FULL' => '完整版',
 	'THEME_MOBILE' => '手机版',
 	'TITLE_BLOGS' => '{0} @ {1}',
-	'TEST' => "TEST",
 );
