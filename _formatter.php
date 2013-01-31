@@ -32,19 +32,22 @@ mylog("Bot: rewriting");
 $origin = loadphp("zh-cn.php");
 
 foreach (glob("*.php") as $file) {
-	$list = loadphp($file);
-	$result = array();
-	foreach(array_diff(array_keys($list), array_keys($origin)) as $k)
-		mylog("invalid key in " . $file. ": \"" . $k . "\" => " . $list[$k]);
-	foreach(array_keys($origin) as $k)
+	if (!strpos($file, "_"))
 	{
-		if (array_key_exists($k, $list))
-			$result[$k] = $list[$k];
-		else
+		$list = loadphp($file);
+		$result = array();
+		foreach(array_diff(array_keys($list), array_keys($origin)) as $k)
+			mylog("invalid key in " . $file. ": \"" . $k . "\" => " . $list[$k]);
+		foreach(array_keys($origin) as $k)
 		{
-			mylog("not found in " . $file . ": \"" . $k . "\". using origin.");
-			$result[$k] = $origin[$k];
+			if (array_key_exists($k, $list))
+				$result[$k] = $list[$k];
+			else
+			{
+				mylog("not found in " . $file . ": \"" . $k . "\". using origin.");
+				$result[$k] = $origin[$k];
+			}
 		}
+		dumpphp($file, $result);
 	}
-	dumpphp($file, $result);
 }
