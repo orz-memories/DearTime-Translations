@@ -1,13 +1,7 @@
 #!/usr/bin/env ruby
 #encoding: utf-8
-require 'tempfile'
-system("git reset HEAD *")
-system("git checkout *")
-system("git pull --force")
-
-$logfile = Tempfile.new('log')
 def log m
-  [STDOUT, $logfile].each do |o|
+  [STDERR].each do |o|
     o.puts m
   end
 end
@@ -57,8 +51,3 @@ Dir["*.php"].each do |file|
   end
   dumpphp file, result
 end
-
-log "Signed-off-by: aomame <aomame@dearti.me>"
-$logfile.close
-system("git commit -a --file=#{$logfile.path.inspect}")
-system("git push")
