@@ -4,8 +4,6 @@ return array(
 	'APP_SLOGAN' => '如果生命是第一，那么……',
 	'INDEX_GET' => 'Sign up',
 	
-	'FOOTER_BACK_TO_TOP' => '回到顶部',
-	
 	'FOOTER_BACK_TO_TOP' => 'Back to top',
 	
 	'JUMP_ERROR' => 'Oh snap! You got an error!',
