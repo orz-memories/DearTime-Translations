@@ -11,7 +11,6 @@ def log m
 end
 
 def loadphp file
-  log "loading file: " << file
   content = File.open file, "r" do |io|
     io.read
   end
@@ -33,13 +32,12 @@ def dumpphp file, list
   File.open file, "w" do |io|
     io.write result
   end
-  log "saved file: " << file
 end
+
+log "Bot: rewriting"
 
 ORIGIN = "zh-cn.php"
 origin = loadphp ORIGIN
-
-log "Bot: rewriting"
 
 Dir["*.php"].each do |file|
   list = loadphp file
