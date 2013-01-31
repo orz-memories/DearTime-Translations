@@ -9,11 +9,9 @@ function loadphp($file)
 {
 	$content = file_get_contents($file);
 	$result = array();
-	preg_match_all("/^\\s*(['\"])([A-Za-z0-9_]*?)\\1\\s*=>\\s*(['\"])(.*?)\\3,?\\s*$/", $content, $r, PREG_SET_ORDER);
-	var_dump($r);
-	die();
+	preg_match_all("/^\\s*(['\"])([A-Za-z0-9_]*?)\\1\\s*=>\\s*(['\"])(.*?)\\3,?\\s*$/m", $content, $r, PREG_SET_ORDER);
 	foreach ($r as $i)
-		$result[$i[1]] = $i[2] . $i[3] . $i[2];
+		$result[$i[2]] = $i[3] . $i[4] . $i[3];
 	return $result;
 }
 
