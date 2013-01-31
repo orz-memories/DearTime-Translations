@@ -84,5 +84,4 @@ return array(
 	'THEME_FULL' => 'Full Site',
 	'THEME_MOBILE' => 'Mobile Site',
 	'TITLE_BLOGS' => '{0} @ {1}',
-		'use'
 );
