@@ -1,7 +1,17 @@
 #!/usr/bin/env ruby
 #encoding: utf-8
+require 'tempfile'
+system("git pull --force")
+
+$logfile = Tempfile.new('log')
+def log m
+  [STDERR, $logfile].each do |o|
+    o.puts m
+  end
+end
+
 def loadphp file
-  STDERR.puts "loading file: " << file
+  log "loading file: " << file
   content = File.open file, "r" do |io|
     io.read
   end
@@ -23,25 +33,31 @@ def dumpphp file, list
   File.open file, "w" do |io|
     io.write result
   end
-  STDERR.puts "saved file: " << file
+  log "saved file: " << file
 end
 
 ORIGIN = "zh-cn.php"
 origin = loadphp ORIGIN
 
+log "Bot: rewriting"
+
 Dir["*.php"].each do |file|
   list = loadphp file
   result = {}
   (list.keys - origin.keys).each do |k|
-    STDERR.puts "invalid key in #{file}: \"#{k}\" => #{list[k]}"
+    log "invalid key in #{file}: \"#{k}\" => #{list[k]}"
   end
   origin.keys.each do |k|
     if list[k]
       result[k] = list[k]
     else
-      STDERR.puts "not found in #{file}: \"#{k}\". using origin."
+      log "not found in #{file}: \"#{k}\". using origin."
       result[k] = origin[k]
     end
   end
   dumpphp file, result
 end
+
+$logfile.close
+system("git commit -a --file=#{$logfile.path.inspect}")
+system("git push")
