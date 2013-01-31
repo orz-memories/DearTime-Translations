@@ -34,8 +34,8 @@ $origin = loadphp("zh-cn.php");
 foreach (glob("*.php") as $file) {
 	$list = loadphp($file);
 	$result = array();
-	(list.keys - origin.keys).each do |k|
-	mylog("invalid key in " . $file. ": \"" . $k . "\" => " . $list[$k]);
+	foreach(array_diff(array_keys($list), array_keys($origin)) as $k)
+		mylog("invalid key in " . $file. ": \"" . $k . "\" => " . $list[$k]);
 	foreach(array_keys($origin) as $k)
 	{
 		if (array_key_exists($k, $list))
@@ -45,7 +45,6 @@ foreach (glob("*.php") as $file) {
 			mylog("not found in " . $file . ": \"" . $k . "\". using origin.");
 			$result[$k] = $origin[$k];
 		}
-		end
 	}
 	dumpphp($file, $result);
 }
