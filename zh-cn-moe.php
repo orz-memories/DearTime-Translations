@@ -1,6 +1,6 @@
 <?php
 return array(
-  'ACTION_LOGIN' => '中',
+	'ACTION_LOGIN' => '中',
 	'ACTION_REGISTER' => '中',
 	'ACTION_SAVE' => '中',
 	'ACTION_SUBMIT' => '中',
