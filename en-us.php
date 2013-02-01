@@ -1,5 +1,6 @@
 <?php
 return array(
+	'test' => 'tewt',
 	'ACTION_LOGIN' => 'Sign in',
 	'ACTION_REGISTER' => 'Sign up',
 	'ACTION_SAVE' => 'Save',
