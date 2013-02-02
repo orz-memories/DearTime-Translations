@@ -1,7 +1,7 @@
 <?php
 return array(
 	'ACTION_LOGIN' => '中',
-	'ACTION_REGISTER' => '中',
+	'ACTION_REGISTER' => '╱人◕‿‿◕人╲定下契约',
 	'ACTION_SAVE' => '中',
 	'ACTION_SUBMIT' => '中',
 	'APP_NAME' => '第二时光ｕДｕ/',
@@ -28,7 +28,7 @@ return array(
 	'FORM_FORM_SETTINGS' => '修改个人偏好',
 	'FORM_LOGIN_TITLE' => '登录',
 	'FORM_RECOVER_TITLE' => '恢复账户访问',
-	'FORM_REGISTER_TITLE' => '注册',
+	'FORM_REGISTER_TITLE' => '╱人◕‿‿◕人╲定下契约',
 	'INDEX_GET' => '开始记录您的单词日记',
 	'JUMP_AUTOREDIRECT' => '% 秒后自动跳转',
 	'JUMP_ERROR' => '糟糕！你遇到了麻烦！',
@@ -80,7 +80,7 @@ return array(
 	'NAVBAR_PROFILE_DASHBOARD' => '仪表盘',
 	'NAVBAR_PROFILE_DETAILS' => '详细资料',
 	'NAVBAR_RECOVER' => '恢复账户访问',
-	'NAVBAR_REGISTER' => '注册',
+	'NAVBAR_REGISTER' => '╱人◕‿‿◕人╲定下契约',
 	'THEME_FULL' => '完整版',
 	'THEME_MOBILE' => '手机版',
 	'TITLE_BLOGS' => '{0} @ {1}',
