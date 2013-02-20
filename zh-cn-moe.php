@@ -19,7 +19,7 @@ return array(
 	'FIELD_PASSWORD_CONFIRM' => '确认密码',
 	'FIELD_PASSWORD_NEW' => "新密码",
 	'FIELD_PASSWORD_OLD' => "当前密码",
-	'FIELD_REMEMBER_ME' => '在这台计算机上记住我',
+	'FIELD_REMEMBER_ME' => '记住我',
 	'FIELD_TODAY_WORD' => '今日单词',
 	'FIELD_USERNAME' => '用户名',
 	'FOOTER_BACK_TO_TOP' => '回到顶部',

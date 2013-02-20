@@ -19,7 +19,7 @@ return array(
 	'FIELD_PASSWORD_CONFIRM' => 'Password again',
 	'FIELD_PASSWORD_NEW' => "New Password",
 	'FIELD_PASSWORD_OLD' => "Current Password",
-	'FIELD_REMEMBER_ME' => 'Remember me on this computer',
+	'FIELD_REMEMBER_ME' => 'Remember me',
 	'FIELD_TODAY_WORD' => 'Topic of Today',
 	'FIELD_USERNAME' => 'Login Name',
 	'FOOTER_BACK_TO_TOP' => 'Back to top',
