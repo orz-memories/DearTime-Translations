@@ -89,3 +89,4 @@ return array(
 	'THEME_FULL' => '完全版',
 	'THEME_MOBILE' => '携帯版',
 	'TITLE_BLOGS' => '{0} @ {1}',
+);
