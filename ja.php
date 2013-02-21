@@ -156,6 +156,8 @@ return array(
 	'MESSAGE_REQUIRED_FIELD' => '必要のフィールド。',
 	'MESSAGE_SAVE_SUCCESS' => '保存成功。',
 	'MESSAGE_SESSION_REVOKED' => 'もう会話がログアウトしました <code>{0}</code>。',
+	'MESSAGE_SIGNUP_ALPHA' => '为了能为您提供舒适及稳定的服务，我们尚在仔细打磨。请关注<a href="http://blog.dearti.me">第二时光官方博客</a>。',
+	'MESSAGE_SIGNUP_ALPHA_TITLE' => '不开放注册',
 	'MESSAGE_TOO_LONG_FIELD' => '数値が長すぎ。',
 	'MESSAGE_USERNAME_HELP' => 'IDはアルファベット開始、そして用户名应以字母起始，且仅含有小写字母和数字以及下划线，长度应在 4～50 之间。<br />换句话说，用户名应可以被此正则表达式 <code>^[a-z][a-z0-9_]{3,49}$</code> 匹配。',
 	'MESSAGE_USERNAME_INVALID' => 'IDが存在していまん',

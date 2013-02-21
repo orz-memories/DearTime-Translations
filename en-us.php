@@ -156,6 +156,8 @@ return array(
 	'MESSAGE_REQUIRED_FIELD' => 'Required. ',
 	'MESSAGE_SAVE_SUCCESS' => 'Saved successfully. ',
 	'MESSAGE_SESSION_REVOKED' => 'You have revoked the session <code>{0}</code> successfully.',
+	'MESSAGE_SIGNUP_ALPHA' => '为了能为您提供舒适及稳定的服务，我们尚在仔细打磨。请关注<a href="http://blog.dearti.me">第二时光官方博客</a>。',
+	'MESSAGE_SIGNUP_ALPHA_TITLE' => '不开放注册',
 	'MESSAGE_TOO_LONG_FIELD' => 'Too long. ',
 	'MESSAGE_USERNAME_HELP' => 'Should be matched with <code>^[a-z][a-z0-9_]{3,49}$</code>.',
 	'MESSAGE_USERNAME_INVALID' => 'Login name doesn\'t exist.',

@@ -156,6 +156,8 @@ return array(
 	'MESSAGE_REQUIRED_FIELD' => 'Pasti diisi.',
 	'MESSAGE_SAVE_SUCCESS' => 'Simpan berjaya.',
 	'MESSAGE_SESSION_REVOKED' => 'Kamu sudah membatalkan sidang <code>{0}</code>。',
+	'MESSAGE_SIGNUP_ALPHA' => '为了能为您提供舒适及稳定的服务，我们尚在仔细打磨。请关注<a href="http://blog.dearti.me">第二时光官方博客</a>。',
+	'MESSAGE_SIGNUP_ALPHA_TITLE' => '不开放注册',
 	'MESSAGE_TOO_LONG_FIELD' => 'Terlalu panjang.',
 	'MESSAGE_USERNAME_HELP' => 'Nama penguna perlu mula dengan perkataan huruf dan hanya boleh mengunakan huruf kecil, nombor dan underscore, nama penguna harus dalam 4 hingga 50 perkataan.<br \>Pendek kata, nama penguna harus dicocok oleh regular ekspresi <code>^[a-z][a-z0-9_]{3,49}$</code>.',
 	'MESSAGE_USERNAME_INVALID' => 'Tak ada penguna ini.',
