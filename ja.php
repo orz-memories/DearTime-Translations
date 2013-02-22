@@ -159,7 +159,7 @@ return array(
 	'MESSAGE_SAVE_SUCCESS' => '保存成功。',
 	'MESSAGE_SERVER_DOWN' => '非常抱歉，第二时光也许遇到了问题或者正在短暂的执行例行维护，请您稍后回来。',
 	'MESSAGE_SESSION_REVOKED' => 'もう会話がログアウトしました <code>{0}</code>。',
-	'MESSAGE_SIGNUP_ALPHA' => 'お客様に気軽いと安定のサビースを提供するために、今までも開発しています。詳しく情報はこちらへ<a href="http://blog.dearti.me">ディアタイムブログ</a>（中国語）。',
+	'MESSAGE_SIGNUP_ALPHA' => 'お客様に気軽い使うと安定のサビースを提供するために、今までも開発しています。詳しく情報はこちらへ<a href="http://blog.dearti.me">ディアタイムブログ</a>（中国語）。',
 	'MESSAGE_SIGNUP_ALPHA_TITLE' => '今開放されていません',
 	'MESSAGE_TOO_LONG_FIELD' => '数値が長くすぎだ。',
 	'MESSAGE_USERNAME_HELP' => 'ID はアルファベット開始、そしてアルファベットの小文字と数字とアンダーラインだけ、四バイトから五十バイトまで以内ができます。<br />换句话说，用户名应可以被此正则表达式 <code>^[a-z][a-z0-9_]{3,49}$</code> 匹配。',
