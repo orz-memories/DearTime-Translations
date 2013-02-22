@@ -124,6 +124,7 @@ return array(
 	'LANGUAGE_TIME_PERIOD_5' => "清晨",
 	'LANGUAGE_TIME_PERIOD_7' => "早晨",
 	'LANGUAGE_TIME_PERIOD_9' => "上午",
+    'MESSAGE_SERVER_DOWN' => '非常抱歉，第二时光也许遇到了问题或者正在短暂的执行例行维护，请您稍后回来。',
 	'MESSAGE_EMAIL_FORBIDDEN' => '此电子邮件域已被屏蔽。',
 	'MESSAGE_EMAIL_MALFORMED' => '电子邮件地址无效。',
 	'MESSAGE_EMAIL_MISMATCH' => '电子邮件地址不匹配。',
