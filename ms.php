@@ -95,7 +95,7 @@ return array(
 	'LANGUAGE_DATE_WEEK_SHORT_7' => '七',
 	'LANGUAGE_TIME_AMPM_0' => "上午",
 	'LANGUAGE_TIME_AMPM_12' => "下午",
-	'LANGUAGE_TIME_NICE_A_HINT' => '（至译者，无需翻译）这些短语出现在空间较为短的地方。如果语言表达后天前天过于复杂，则按照 N 的说法来表达。比如英语明天 tomorrow，后天 day after tomorrow，几天后是 {0} days after，则后天作 2 days after 即可。_1 与 _N 的区别是单复数。',
+	'LANGUAGE_TIME_NICE_A_HINT' => '（至译者，无需翻译）这些短语出现在空间较为短的地方。如果语言表达后天前天过于复杂，则留空，程序将按照 N 的说法来表达。比如英语明天 tomorrow，后天 day after tomorrow，几天后是 {0} days after，则后天留空即可。_1 与 _N 的区别是单复数。请注意体会昨日和 1 日前的概念不一样。',
 	'LANGUAGE_TIME_NICE_DAY_AFTER_1' => "明天",
 	'LANGUAGE_TIME_NICE_DAY_AFTER_2' => "后天",
 	'LANGUAGE_TIME_NICE_DAY_AFTER_N' => "{0} 天后",
