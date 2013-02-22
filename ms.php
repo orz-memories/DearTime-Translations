@@ -155,6 +155,7 @@ return array(
 	'MESSAGE_REGISTER_SUCCESS' => 'Terima kasih untuk pendaftaran anda!',
 	'MESSAGE_REQUIRED_FIELD' => 'Pasti diisi.',
 	'MESSAGE_SAVE_SUCCESS' => 'Simpan berjaya.',
+	'MESSAGE_SERVER_DOWN' => '非常抱歉，第二时光也许遇到了问题或者正在短暂的执行例行维护，请您稍后回来。',
 	'MESSAGE_SESSION_REVOKED' => 'Kamu sudah membatalkan sidang <code>{0}</code>。',
 	'MESSAGE_SIGNUP_ALPHA' => '为了能为您提供舒适及稳定的服务，我们尚在仔细打磨。请关注<a href="http://blog.dearti.me">第二时光官方博客</a>（中文）。',
 	'MESSAGE_SIGNUP_ALPHA_TITLE' => '不开放注册',

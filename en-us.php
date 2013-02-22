@@ -155,6 +155,7 @@ return array(
 	'MESSAGE_REGISTER_SUCCESS' => 'Thank you for your signing.',
 	'MESSAGE_REQUIRED_FIELD' => 'Required. ',
 	'MESSAGE_SAVE_SUCCESS' => 'Saved successfully. ',
+	'MESSAGE_SERVER_DOWN' => '非常抱歉，第二时光也许遇到了问题或者正在短暂的执行例行维护，请您稍后回来。',
 	'MESSAGE_SESSION_REVOKED' => 'You have revoked the session <code>{0}</code> successfully.',
 	'MESSAGE_SIGNUP_ALPHA' => 'We are coming soon! Please follow our <a href="http://blog.dearti.me">official blog</a>. (in Chinese)。',
 	'MESSAGE_SIGNUP_ALPHA_TITLE' => 'Not open',

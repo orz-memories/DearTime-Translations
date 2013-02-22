@@ -155,6 +155,7 @@ return array(
 	'MESSAGE_REGISTER_SUCCESS' => 'ご利用を感謝します！',
 	'MESSAGE_REQUIRED_FIELD' => '必要のフィールド。',
 	'MESSAGE_SAVE_SUCCESS' => '保存成功。',
+	'MESSAGE_SERVER_DOWN' => '非常抱歉，第二时光也许遇到了问题或者正在短暂的执行例行维护，请您稍后回来。',
 	'MESSAGE_SESSION_REVOKED' => 'もう会話がログアウトしました <code>{0}</code>。',
 	'MESSAGE_SIGNUP_ALPHA' => 'お客様に気軽いと安定のサビースを提供するために、今までも開発しています。詳しく情報はこちらへ<a href="http://blog.dearti.me">ディアタイムブログ</a>（中国語）。',
 	'MESSAGE_SIGNUP_ALPHA_TITLE' => '今開放されていません',
