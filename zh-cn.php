@@ -124,6 +124,8 @@ return array(
 	'LANGUAGE_TIME_PERIOD_5' => "清晨",
 	'LANGUAGE_TIME_PERIOD_7' => "早晨",
 	'LANGUAGE_TIME_PERIOD_9' => "上午",
+	'MESSAGE_DASHBOARD_INVITE' => '您目前尚有一枚邀请码没有使用。为何不邀请您的好友来这里呢？',
+	'MESSAGE_DASHBOARD_INVITE_TITLE' => '邀请好友',
 	'MESSAGE_EMAIL_FORBIDDEN' => '此电子邮件域已被屏蔽。',
 	'MESSAGE_EMAIL_MALFORMED' => '电子邮件地址无效。',
 	'MESSAGE_EMAIL_MISMATCH' => '电子邮件地址不匹配。',
@@ -191,6 +193,4 @@ return array(
 	'TITLE_BLOGS' => '{0} @ {1}',
 	'URL_GRAVATAR_TOUR' => 'http://www.ppurl.com/help/gravatar',
 	'URL_GRAVATAR_TOUR_HINT' => '（至译者，无需翻译）请找一个此语言的 Gravatar 教程的链接，请尽量挑选简明且没有广告（或较少）的页面。如果没有请删掉整个网址只保留外面的引号即可，网页上的链接会自动隐藏掉。',
-    'MESSAGE_DASHBOARD_INVITE' => '您目前尚有一枚邀请码没有使用。为何不邀请您的好友来这里呢？',
-    'MESSAGE_DASHBOARD_INVITE_TITLE' => '邀请好友',
 );

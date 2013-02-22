@@ -124,6 +124,8 @@ return array(
 	'LANGUAGE_TIME_PERIOD_5' => "清晨",
 	'LANGUAGE_TIME_PERIOD_7' => "早晨",
 	'LANGUAGE_TIME_PERIOD_9' => "上午",
+	'MESSAGE_DASHBOARD_INVITE' => '您目前尚有一枚邀请码没有使用。为何不邀请您的好友来这里呢？',
+	'MESSAGE_DASHBOARD_INVITE_TITLE' => '邀请好友',
 	'MESSAGE_EMAIL_FORBIDDEN' => '此电子邮件域已被屏蔽。',
 	'MESSAGE_EMAIL_MALFORMED' => '电子邮件地址无效。',
 	'MESSAGE_EMAIL_MISMATCH' => '电子邮件地址不匹配。',
