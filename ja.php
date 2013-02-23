@@ -128,6 +128,7 @@ return array(
 	'MESSAGE_DASHBOARD_INVITE' => '您目前尚有一枚邀请码没有使用。为何不邀请您的好友来这里呢？',
 	'MESSAGE_DASHBOARD_INVITE_TITLE' => '邀请好友',
 	'MESSAGE_EMAIL_FORBIDDEN' => 'このメールアドレスの区域も障壁されています。',
+	'MESSAGE_EMAIL_INVALID' => '电子邮件地址未与已知用户关联。',
 	'MESSAGE_EMAIL_MALFORMED' => 'メールアドレスが無効。',
 	'MESSAGE_EMAIL_MISMATCH' => 'メールアドレスがマッチしいません。',
 	'MESSAGE_EMAIL_SENT' => 'メールが届けました',
