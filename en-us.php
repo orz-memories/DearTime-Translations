@@ -36,6 +36,7 @@ return array(
 	'FIELD_SESSION_LOCATION' => 'Location',
 	'FIELD_TODAY_WORD' => 'Topic of Today',
 	'FIELD_USERNAME' => 'Login Name',
+	'FIELD_USERNAME_OR_EMAIL' => 'Login Name / E-mail',
 	'FOOTER_BACK_TO_TOP' => 'Back to top',
 	'FORM_FORM_DETAILS' => 'Editing my details',
 	'FORM_FORM_GRAVATAR' => 'Uploading avatar',

@@ -36,6 +36,7 @@ return array(
 	'FIELD_SESSION_LOCATION' => '登录地点',
 	'FIELD_TODAY_WORD' => 'Kata hari ini',
 	'FIELD_USERNAME' => 'Nama pengguna',
+	'FIELD_USERNAME_OR_EMAIL' => 'Nama pengguna / Alamat e-mel',
 	'FOOTER_BACK_TO_TOP' => 'Naik ke atas',
 	'FORM_FORM_DETAILS' => 'Menukar maklumat',
 	'FORM_FORM_GRAVATAR' => '设置 Gravatar 头像',

@@ -36,6 +36,7 @@ return array(
 	'FIELD_SESSION_LOCATION' => 'ログイン場所',
 	'FIELD_TODAY_WORD' => '今日の単語',
 	'FIELD_USERNAME' => 'ID',
+	'FIELD_USERNAME_OR_EMAIL' => 'ID/メールアドレス',
 	'FOOTER_BACK_TO_TOP' => 'トップを戻る',
 	'FORM_FORM_DETAILS' => 'プロフィール設定',
 	'FORM_FORM_GRAVATAR' => 'Gravatarのアルバムを設置する',
