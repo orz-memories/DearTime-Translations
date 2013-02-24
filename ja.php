@@ -181,7 +181,7 @@ return array(
 	'NAVBAR_MY_PASSWORD' => 'パスワードの変更 ',
 	'NAVBAR_MY_PROFILE' => 'プロフィール設定',
 	'NAVBAR_MY_SESSIONS' => '会話を管理する',
-	'NAVBAR_MY_SETTINGS' => 'お気に入りに設定する',
+	'NAVBAR_MY_SETTINGS' => '個人設定',
 	'NAVBAR_MY_TODAY' => '今日を記録する',
 	'NAVBAR_OTHER' => '他の選択',
 	'NAVBAR_PROFILE_AVATAR' => 'アバター',
