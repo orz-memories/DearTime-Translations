@@ -218,6 +218,7 @@ return array(
 	'NAVBAR_REGISTER' => '新規登録',
 	'THEME_FULL' => '完全版',
 	'THEME_MOBILE' => '携帯版',
+	'THEME_SIMPLE' => '精简版',
 	'TITLE_BLOGS' => '{0} @ {1}',
 	'URL_GRAVATAR_TOUR' => 'http://ja.gravatar.com/',
 	'URL_GRAVATAR_TOUR_HINT' => '（至译者，无需翻译）请找一个此语言的 Gravatar 教程的链接，请尽量挑选简明且没有广告（或较少）的页面。如果没有请删掉整个网址只保留外面的引号即可，网页上的链接会自动隐藏掉。',

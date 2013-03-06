@@ -218,6 +218,7 @@ return array(
 	'NAVBAR_REGISTER' => 'Daftar',
 	'THEME_FULL' => 'Halaman penuh',
 	'THEME_MOBILE' => 'Halaman mobile',
+	'THEME_SIMPLE' => '精简版',
 	'TITLE_BLOGS' => '{0} @ {1}',
 	'URL_GRAVATAR_TOUR' => 'http://www.ppurl.com/help/gravatar',
 	'URL_GRAVATAR_TOUR_HINT' => '（至译者，无需翻译）请找一个此语言的 Gravatar 教程的链接，请尽量挑选简明且没有广告（或较少）的页面。如果没有请删掉整个网址只保留外面的引号即可，网页上的链接会自动隐藏掉。',
