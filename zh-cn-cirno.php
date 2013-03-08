@@ -169,7 +169,7 @@ return array(
 	'MESSAGE_NO_POST_TITLE' => '空白',
 	'MESSAGE_NO_REPEAT_LOGIN' => '何必重复登录呢？请先注销。',
 	'MESSAGE_PASSWORD_DANGER' => '密码过于简单。',
-	'MESSAGE_PASSWORD_HELP' => '一个良好的密码至少应含有 10 位，不全为数字或者字母。请勿使用任何引号。',
+	'MESSAGE_PASSWORD_HELP' => '一个良好的密码至少应含有 6 位，不全为数字或者字母。请勿使用任何引号。',
 	'MESSAGE_PASSWORD_INVALID' => '密码与用户名不匹配。',
 	'MESSAGE_PASSWORD_MISMATCH' => '密码不匹配。',
 	'MESSAGE_PASSWORD_MISMATCH_OLD' => '旧密码不正确。',

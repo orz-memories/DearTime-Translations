@@ -169,7 +169,7 @@ return array(
 	'MESSAGE_NO_POST_TITLE' => '空',
 	'MESSAGE_NO_REPEAT_LOGIN' => 'またログインしないでくださいよ、ますログアウトしろう。',
 	'MESSAGE_PASSWORD_DANGER' => 'パスウードが簡単すぎる',
-	'MESSAGE_PASSWORD_HELP' => 'いいパスウードが最少十位、数字やアルファベットだけじゃなく、そして引用符を使ってしないでください。',
+	'MESSAGE_PASSWORD_HELP' => 'いいパスウードが最少 6 位、数字やアルファベットだけじゃなく、そして引用符を使ってしないでください。',
 	'MESSAGE_PASSWORD_INVALID' => 'パスウードが間違いました',
 	'MESSAGE_PASSWORD_MISMATCH' => 'パスワードが一致していません。',
 	'MESSAGE_PASSWORD_MISMATCH_OLD' => 'パスウードが正しくない',

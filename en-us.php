@@ -169,7 +169,7 @@ return array(
 	'MESSAGE_NO_POST_TITLE' => 'Nothing',
 	'MESSAGE_NO_REPEAT_LOGIN' => 'You have already signed in',
 	'MESSAGE_PASSWORD_DANGER' => 'Too simple. ',
-	'MESSAGE_PASSWORD_HELP' => '> 10 chars',
+	'MESSAGE_PASSWORD_HELP' => '> 6 chars',
 	'MESSAGE_PASSWORD_INVALID' => 'Wrong. ',
 	'MESSAGE_PASSWORD_MISMATCH' => 'Mismatch. ',
 	'MESSAGE_PASSWORD_MISMATCH_OLD' => 'Wrong. ',
@@ -222,4 +222,5 @@ return array(
 	'TITLE_BLOGS' => '{0} @ {1}',
 	'URL_GRAVATAR_TOUR' => 'http://en.gravatar.com/',
 	'URL_GRAVATAR_TOUR_HINT' => '（至译者，无需翻译）请找一个此语言的 Gravatar 教程的链接，请尽量挑选简明且没有广告（或较少）的页面。如果没有请删掉整个网址只保留外面的引号即可，网页上的链接会自动隐藏掉。',
+	'FIELD_SETTINGS_GENERAL_WEEKFIRST' => 'Week Starts On',
 );

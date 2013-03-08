@@ -169,7 +169,7 @@ return array(
 	'MESSAGE_NO_POST_TITLE' => '空白',
 	'MESSAGE_NO_REPEAT_LOGIN' => '何必重复登录呢？请先注销。',
 	'MESSAGE_PASSWORD_DANGER' => '密码过于简单。',
-	'MESSAGE_PASSWORD_HELP' => '一个良好的密码至少应含有 10 位，不全为数字或者字母。请勿使用任何引号。',
+	'MESSAGE_PASSWORD_HELP' => '一个良好的密码至少应含有 6 位，不全为数字或者字母。请勿使用任何引号。',
 	'MESSAGE_PASSWORD_INVALID' => '密码与用户名不匹配。',
 	'MESSAGE_PASSWORD_MISMATCH' => '密码不匹配。',
 	'MESSAGE_PASSWORD_MISMATCH_OLD' => '旧密码不正确。',
@@ -222,4 +222,5 @@ return array(
 	'TITLE_BLOGS' => '{0} @ {1}',
 	'URL_GRAVATAR_TOUR' => 'http://www.ppurl.com/help/gravatar',
 	'URL_GRAVATAR_TOUR_HINT' => '（至译者，无需翻译）请找一个此语言的 Gravatar 教程的链接，请尽量挑选简明且没有广告（或较少）的页面。如果没有请删掉整个网址只保留外面的引号即可，网页上的链接会自动隐藏掉。',
+	'FIELD_SETTINGS_GENERAL_WEEKFIRST' => '一星期开始于',
 );

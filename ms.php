@@ -169,7 +169,7 @@ return array(
 	'MESSAGE_NO_POST_TITLE' => 'Kosong',
 	'MESSAGE_NO_REPEAT_LOGIN' => 'Anda sudah login, sila logout dulu.',
 	'MESSAGE_PASSWORD_DANGER' => 'Kata laluan terlalu mudah.',
-	'MESSAGE_PASSWORD_HELP' => 'Satu kata laluan yang baik perlu mempunyai sekurang-kurangnya 10 perkataan dan bercampur dalam huruf dengan nombor. Jangan mengunakan tanda quote.',
+	'MESSAGE_PASSWORD_HELP' => 'Satu kata laluan yang baik perlu mempunyai sekurang-kurangnya 6 perkataan dan bercampur dalam huruf dengan nombor. Jangan mengunakan tanda quote.',
 	'MESSAGE_PASSWORD_INVALID' => 'Kata laluan dan nama pengguna tidak sepadan.',
 	'MESSAGE_PASSWORD_MISMATCH' => 'Kata laluan tidak sepadan.',
 	'MESSAGE_PASSWORD_MISMATCH_OLD' => 'Kata laluan lama tidak betul.',
