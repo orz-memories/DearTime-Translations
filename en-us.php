@@ -35,6 +35,7 @@ return array(
 	'FIELD_SESSION_ID' => 'Session ID',
 	'FIELD_SESSION_LOCATION' => 'Location',
 	'FIELD_SETTINGS_APPEARANCE_STYLESHEET' => '皮肤',
+	'FIELD_SETTINGS_GENERAL_WEEKFIRST' => 'Week Starts On',
 	'FIELD_SETTINGS_MINECRAFT_DATE' => '日期显示',
 	'FIELD_SETTINGS_PRIVACY_LEVEL' => '隐私等级',
 	'FIELD_SETTINGS_PRIVACY_LEVEL_0' => '完全公开我的单词日记',
@@ -222,5 +223,4 @@ return array(
 	'TITLE_BLOGS' => '{0} @ {1}',
 	'URL_GRAVATAR_TOUR' => 'http://en.gravatar.com/',
 	'URL_GRAVATAR_TOUR_HINT' => '（至译者，无需翻译）请找一个此语言的 Gravatar 教程的链接，请尽量挑选简明且没有广告（或较少）的页面。如果没有请删掉整个网址只保留外面的引号即可，网页上的链接会自动隐藏掉。',
-	'FIELD_SETTINGS_GENERAL_WEEKFIRST' => 'Week Starts On',
 );
