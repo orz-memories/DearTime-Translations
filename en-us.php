@@ -190,7 +190,7 @@ return array(
 	'MESSAGE_USERNAME_INVALID' => 'Login name doesn\'t exist.',
 	'MESSAGE_USERNAME_MALFORMED' => 'Malformed. ',
 	'MESSAGE_USERNAME_TAKEN' => 'Taken. ',
-	'MESSAGE_WORD_HELP' => '(max: 50 bytes)',
+	'MESSAGE_WORD_HELP' => '(max: 42 bytes)',
 	'MESSAGE_WORD_TOO_LONG' => 'Too long. ',
 	'NAVBAR_ABOUT_US' => 'About us',
 	'NAVBAR_BACK' => 'back',
