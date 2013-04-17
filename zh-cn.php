@@ -226,4 +226,13 @@ return array(
 	'TITLE_BLOGS' => '{0} @ {1}',
 	'URL_GRAVATAR_TOUR' => 'http://www.ppurl.com/help/gravatar',
 	'URL_GRAVATAR_TOUR_HINT' => '（至译者，无需翻译）请找一个此语言的 Gravatar 教程的链接，请尽量挑选简明且没有广告（或较少）的页面。如果没有请删掉整个网址只保留外面的引号即可，网页上的链接会自动隐藏掉。',
+    'FIELD_WIDGETS_URL' => '图片地址',
+    'MESSAGE_WIDGETS_URL_HELP' => '您需要了解的是，这个地址访问后会跳转到我们的静态 CDN，跳转后的地址将不提供任何担保（包括及不仅限于：速度缓慢、无法访问）。请确保您使用的是此地址而非跳转后的地址。',
+    'FIELD_WIDGETS_FONT' => '字体',
+    'FIELD_WIDGETS_WIDTH' => '图片宽度（像素）',
+    'FIELD_WIDGETS_HEIGHT' => '图片高度（像素）',
+    'FIELD_WIDGETS_LEFT' => '文字水平座标（像素）',
+    'FIELD_WIDGETS_BASELINE' => '文字基线垂直座标（像素）',
+    'FIELD_WIDGETS_SIZE' => '大小',
+    'FIELD_WIDGETS_FONT_SIZE' => '文字大小',
 );
