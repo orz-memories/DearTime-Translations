@@ -3,7 +3,7 @@ return array(
 	'ACTION_GRAVATAR_TOUR' => 'Gravatar 教程',
 	'ACTION_LOGIN' => 'Login',
 	'ACTION_REGISTER' => 'Daftar',
-	'ACTION_REVOKE' => '吊销',
+	'ACTION_REVOKE' => 'Batal',
 	'ACTION_SAVE' => 'Simpan',
 	'ACTION_SUBMIT' => 'Submit',
 	'ACTION_VISIT_GRAVATAR' => '前往 Gravatar',
